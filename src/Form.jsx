@@ -35,7 +35,7 @@ export default function Form() {
                 type="text" 
                 value={formData.fullName} 
                 onChange={handleInputChange} 
-                id="fullname"
+                id="fullname" //id is used to link the <input> with its <label>
                 name="fullName"
             />
 

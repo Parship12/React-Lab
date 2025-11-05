@@ -8,6 +8,7 @@ import {sum} from "./helper"
 import Form from "./Form"
 import CommentsForm from './CommentsForm'
 import Comment from './Comment'
+import Counter from './Counter'
 
 function App() {
   let winCondition = (ticket) => {
@@ -21,7 +22,8 @@ function App() {
       {/* <LotteryGame n={3} winCondition={winCondition}/> */}
       {/* <Form/> */}
       {/* <CommentsForm/> */}
-      <Comment/>
+      {/* <Comment/> */}
+      <Counter/>
     </>
   )
 }
